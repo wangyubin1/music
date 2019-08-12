@@ -1,0 +1,72 @@
+.main{
+    max-width: 1100px;
+    min-width: 980px;
+    position: relative;
+    margin: 40px auto 20px;
+    height: 100%;
+}
+.main h2{
+    font-weight: 100;
+    color: #fd6834;
+    text-align: center;
+}
+.main .border{
+    width: 275px;
+    height: 22px;
+    padding: 7px;
+    line-height: 22px;
+    border: 1px solid #ccc;
+}
+.main table{
+    margin: 20px 0 20px 110px;
+}
+.main tr td{
+    height: 56px;
+}
+.main tr td:first-child{
+    width: 300px;
+    text-align: right;
+}
+.main .buttom{
+    height: 50px;
+    width: 95px;
+    border: none;
+    background: #fd6834;
+    color: #FFF;
+    cursor: pointer;
+    font-size: 1.4rem;
+    line-height: 50px;
+}
+/* 眼睛 */
+.invisible {
+    width: 17px;
+    height: 17px;
+}
+.visible {
+    width: 17px;
+    height: 17px;
+}
+#passwordeye{
+    position: absolute;
+    top: 127px;
+    left: 675px;
+}
+/* 提示 */
+span{
+	color: red;
+	font-size: 13px;
+}
+#tip{
+	font-size: 0px;
+}
+a{
+	text-decoration:underline;
+	color: blue;
+}
+/*个人信息*/
+.pic{
+	width: 100px;
+	height: 100px;
+	border: 1px solid black;
+	display: block;
+}

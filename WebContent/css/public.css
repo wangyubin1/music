@@ -1,0 +1,244 @@
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, code, form, fieldset, legend, input, button, textarea, p, blockquote, th, td {
+    margin: 0;
+    padding: 0;
+}
+table{
+    border-collapse: collapse;
+    border-spacing: 0;
+    display: table;
+}
+a{
+    text-decoration: none;
+    color: #333;
+}
+td{
+    display: table-cell;
+    vertical-align: inherit;
+}
+body{
+    background: #F5F5F5;
+}
+/* *******************************分割线******************************** */
+header{
+    width: 100%;
+    position: relative;
+}
+.gap{
+    background: linear-gradient(to bottom, #faab45 0, #fd6834 100%);
+    border-bottom: #b75b00 1px solid;
+    box-shadow: 0 2px 2px rgba(0,0,0,0.2);
+    height: 60px;
+    min-width: 984px;
+    padding: 0 20px;
+    width: auto;
+}
+.wrapper{
+    position: relative;
+    width: auto;
+    max-width: 1100px;
+    min-width: 980px;
+    margin: 0 auto;
+}
+header img{
+    width: 60px;
+    height: 60px;
+    float: left;
+}
+.logo a{
+    display: block;
+    width: 200px;
+    height: 60px;
+    font-size: 1.7rem;
+    line-height: 60px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #FFF;
+    font-weight: bold;
+}
+.search{
+    padding-left: 250px;
+}
+.search .container{
+    position: relative;
+}
+.search form{
+    height: 28px;
+    position: relative;
+}
+.search .text{
+    height: 25px;
+    width: 200px;
+    padding-left: 30px;
+}
+.search .submit{
+    position: absolute;
+    left: 3px;
+    top: 3px;
+    width: 24px;
+    height: 24px;
+    border: none;
+    cursor: pointer;
+    background: url(../images/icon/search.PNG);
+    text-indent: 100%;
+    margin-top: -1px; 
+    /* 兼容ie浏览器 */
+}
+.findMusic{
+    width: 280px;
+}
+.findMusic a{
+    float: left;
+    display: block;
+    height: 60px;
+    width: 95px;
+    text-align: center;
+    line-height: 60px;
+    color: #FFF;
+}
+.account{
+    float: right;
+    width: 90px;
+    margin-left: 15px;
+    padding-top: 17px;
+}
+.account .stop,.start{
+    float: left;
+    display: block;
+    width: 43px;
+    height: 25px;
+    text-align: center;
+    color: #FFF;
+    background: #bf6000;
+    border: 1px #ff8000 solid;
+    font-size: 0.7rem;
+    line-height: 25px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.account a:hover{
+    background: #8c4600;
+}
+.account .start{
+    border-radius: 2px 0 0 2px;
+}
+.account .stop{
+    border-radius: 0 2px 2px 0;
+}
+.login img{
+	background: #F5F5F5;
+	margin-left: 40px;
+	width: 30px;
+	height: 30px;
+	border-radius: 30px;
+}
+nav{
+	width: 150px;
+	height: 120px;
+	background: #fff;
+	position:absolute;
+	top: 50px;
+    z-index: 2000;
+    box-shadow: #666 0px 0px 10px;
+    border-radius: 5px;
+    padding: 4px;
+    display: none;
+}
+nav div{
+	height: 30px;
+	font-size: 0.7rem;
+	line-height: 30px;
+}
+nav div:hover{
+	background: #ff5722;
+	color: #fff;
+}
+.uname{
+	display: none;
+}
+.uid{
+	display: none;
+}
+.login img{
+	cursor: pointer;
+}
+/* *******************************分割线******************************** */
+/*-- //Contact --*/ 
+/*-- Footer --*/
+.footer {
+    background-color: #212121;
+} 
+.footer .wrapper table{
+    margin: 0 auto;
+    width: 980px;
+}
+.footer .wrapper table thead tr th{
+    width: 33%;
+    height: 80px;
+}
+.footer .wrapper table tbody tr td a{
+    color: #EEE;
+    font-size: 1em;
+    display: block;
+	font-weight: 300;
+	font-size: 13px;
+	line-height: 25px;
+}
+.footer h4 {
+    color: #ff5722;
+    font-weight: 600;
+    text-align: left;
+    font-size: 20px;
+} 
+/*-- //Newsletter --*/ 
+/*-- Footer-Social-Icons --*/
+.footer .connect {
+	text-align: center;
+}
+.footer .connect h4 {
+	text-align: center;
+	height: 50px;
+}
+.footer .connect-social ul li {
+    display: inline-block;
+    margin: 0 2px;
+}
+.footer .connect-social ul li a {
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    background-size: 300px;
+    color: #fff;
+    border: 1px solid #fff;
+    line-height: 2.4em;
+    border-radius: 50%;
+    text-align: center;
+} 
+.footer .connect-social ul li a:hover {
+    color: #bdd001;
+    border-color: #bdd001;
+	-webkit-transform: rotatez(360deg);
+	-moz-transform: rotatez(360deg);
+	-o-transform: rotatez(360deg);
+	-ms-transform: rotatez(360deg);
+    transform: rotatez(360deg);
+}
+/*-- Footer-Social-Icons --*/ 
+/*-- Copyright --*/
+.footer .copyright {
+	margin-top: 20px;
+	text-align: center;
+	padding: 10px 0 40px;
+	border-top: 1px solid #EEE;
+	height: 50px;
+	line-height: 40px;
+}
+.footer .copyright p {
+    color: #FFF;
+    font-size: 0.9rem;
+}
+.footer .copyright a {
+	color: #FFF;
+	text-decoration: none;
+}
+.footer .copyright a:hover {
+	color: #bdd001;
+	text-decoration: underline;
+}
