@@ -1,0 +1,25 @@
+$("#wechar").mouseover(()=>{
+    $("#wechar").attr('src',"./images/icon/微信.png");
+}).mouseout(()=>{
+    $("#wechar").attr('src',"./images/icon/微信g.png");
+})
+$("#sina").mouseover(()=>{
+    $("#sina").attr('src',"./images/icon/微博.png");
+}).mouseout(()=>{
+    $("#sina").attr('src',"./images/icon/微博g.png");
+})
+$("#facebook").mouseover(()=>{
+    $("#facebook").attr('src',"./images/icon/登录脸书.png");
+}).mouseout(()=>{
+    $("#facebook").attr('src',"./images/icon/登录脸书g.png");
+})
+$("#qq").mouseover(()=>{
+    $("#qq").attr('src',"./images/icon/空间.png");
+}).mouseout(()=>{
+    $("#qq").attr('src',"./images/icon/空间g.png");
+})
+$("#douban").mouseover(()=>{
+    $("#douban").attr('src',"./images/icon/豆瓣.png");
+}).mouseout(()=>{
+    $("#douban").attr('src',"./images/icon/豆瓣g.png");
+})
